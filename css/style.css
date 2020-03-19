@@ -16,8 +16,6 @@ li{
 	background-color: rgba(0, 0, 0, 1) !important;
 }
 
-.navbar-nav a:hover{background-color: #17a2b8; color:#fff !important;}
-
 /*WELCOME SECTİON*/
 #about img{
 	background-size: cover;
@@ -162,17 +160,45 @@ li{
 #about .social-menus .instagram{
 	color: #8a3ab9;
 }
+/*works*/
+#works{
+	background-color: #fff;
+}
+
+#works .works-title{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 50px;
+	color: #17a2b8;
+}
+
+#works .card{
+	background-color:#eee;
+	color:#000;
+}
+
+#works .card img{
+	height: 210px;
+}
+
+#works .col-md-4{
+	margin-bottom: 45px;
+}
+
 
 /*referances*/
 
 #referances{
 	background: url('../img/service.jpg');
 	background-size: cover;
-	height: 70vh;
+	height: 70%;
 }
 
-#referances .row{
-	height: 70vh;
+#referances .referances-title{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 40px;
+	color: #fff;
 }
 
 #referances .card-body{
@@ -181,7 +207,7 @@ li{
 }
 
 #referances .col-md-4{
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 #referances .col h3{
