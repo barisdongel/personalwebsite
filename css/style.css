@@ -1,0 +1,242 @@
+/*GENERAL*/
+
+li{
+	padding: 0px 30px;
+}
+
+/*Logo*/
+.logoheader{
+	height: 80px;
+}
+
+
+/*NAVBAR*/
+.bg-dark{
+	background-color: rgba(0, 0, 0, 1) !important;
+}
+
+/*WELCOME SECTİON*/
+#about img{
+	background-size: cover;
+	position: absolute;
+	z-index: -1;
+}
+
+.display-4{
+	color:white !important;
+}
+
+#welcome .btn-outline-info{
+	color:#fff;
+	height: 45px;
+	border-radius: 0;
+	padding: 10px 25px;
+	background-color: #17a2b8;
+}
+
+#welcome .btn-outline-info:hover{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-item .nav-link{
+	color:#fff !important;
+	font-size: 14px;
+	transition: 0.20s;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.nav-link:hover{
+	color:#17a2b8 !important;
+}
+
+/*WELCOME*/
+
+#welcome{
+	background: url('../img/work.jpg') no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+#welcome .row{
+	height: 100vh;
+}
+
+#welcome button:focus{
+	border:none !important;
+}
+
+#welcome h2{
+	font-family: 'Quicksand', sans-serif;
+	text-shadow: 0px 0px 0.1px black;
+}
+
+#welcome a{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*ABOUT*/
+#about{
+	background-color: #eee;
+}
+
+#about h3{
+	color:#17a2b8;
+	font-family: 'Domine', serif; 
+	margin-top: 75px;
+	margin-bottom: 60px;
+	border-left: 7px solid #17a2b8;
+	padding-left: 30px;
+	font-size: 35px;
+	text-shadow: 0px 0px 0.1px black;
+}
+
+#about .img-1{
+	position: relative;
+	z-index: 2;
+}
+
+#about h4{
+	color: #17a2b8;
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 30px;
+}
+
+#about p{
+	color:#000;
+	font-size: 22px;
+	margin-left: 50px;
+	line-height: 40px;	
+	margin-bottom: 50px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#about .img-2{
+	border-radius: 0px;
+	position: relative;
+	z-index: 2;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+#about .whomi{
+	background-color: #fff;
+	transition: 0.3s;
+	border: solid 1px black;
+}
+
+#about .whomi:hover{
+	box-shadow: 1px 1px 4px black;
+}
+
+#about .cv{
+	color:#fff;
+	background-color: blue;
+	padding: 20px;
+	transition: 0.2s;
+}
+
+#about .cv:hover{
+	background-color: #fff;
+	color:blue;
+}
+
+/*BAND*/
+
+#band{
+	background: url('../img/service.jpg');
+	background-size: cover;
+	height: 50vh;
+}
+
+#band .row{
+	height: 50vh;
+}
+
+#band .col h3{
+	color:#fff;
+	font-size: 40px;
+	padding-bottom: 20px;
+	text-shadow: 0px 0px 1px black;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#band img{
+	height: 10%;
+	width: 10%;
+}
+
+/*ALBUM*/
+#album{
+	width: 98%;
+}
+
+#album h2{
+	margin: 50px;
+	color:#17a2b8;
+	font-family: 'Domine', serif;
+	font-size: 32px;
+	text-shadow: 0px 0px 0.1px black;
+}
+
+#album img{
+	height: 60vh;
+	margin-left: 20px;
+	z-index: 2;
+	opacity: 0.5;
+	transition: 0.2s;
+	position: relative;
+	border-radius: 10px;
+}
+
+#album img:hover,focus{
+	opacity: 1;
+	box-shadow: 3px 3px 30px;
+}
+
+/*CONTACT*/
+#contact{
+	margin-top: 100px;
+	background: url('../img/contact.png') no-repeat center center fixed;
+}
+
+#contact p{color:#fff;}
+#contact h4{color:#17a2b8;}
+#contact h3{color:#17a2b8; font-family: 'Domine', serif;}
+#contact .py-4 a{
+	padding: 20px;
+	color:#fff;
+}
+
+#contact .py-4 a:hover{
+	color:#17a2b8;
+}
+
+#contact .input-group-addon{
+	padding: 10px;
+	background-color: #17a2b8;
+	color:#fff;
+}
+
+#contact .btn-block{
+	background-color: #17a2b8;
+	border-radius: 0px;
+	color:#fff;
+	font-family: lato,sans-serif;
+}
+
+#contact .btn-block:hover{
+	background-color: rgba(0, 0, 0, 0);
+	color:#fff;
+}
+
+/*FOOTER*/
+#footer{
+	height: 100%;
+	background-color: #000;
+}
+
+#footer p{color:#fff; padding-top: 10px;}
