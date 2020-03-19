@@ -6,7 +6,8 @@ li{
 
 /*Logo*/
 .logoheader{
-	height: 80px;
+ 	padding-left: 30px;
+	height: 60px;
 }
 
 
@@ -14,6 +15,8 @@ li{
 .bg-dark{
 	background-color: rgba(0, 0, 0, 1) !important;
 }
+
+.navbar-nav a:hover{background-color: #17a2b8; color:#fff !important;}
 
 /*WELCOME SECTİON*/
 #about img{
@@ -160,19 +163,28 @@ li{
 	color: #8a3ab9;
 }
 
-/*BAND*/
+/*referances*/
 
-#band{
+#referances{
 	background: url('../img/service.jpg');
 	background-size: cover;
-	height: 50vh;
+	height: 70vh;
 }
 
-#band .row{
-	height: 50vh;
+#referances .row{
+	height: 70vh;
 }
 
-#band .col h3{
+#referances .card-body{
+	color: #fff;
+	text-align: center;
+}
+
+#referances .col-md-4{
+	margin-top: 50px;
+}
+
+#referances .col h3{
 	color:#fff;
 	font-size: 40px;
 	padding-bottom: 20px;
@@ -180,9 +192,8 @@ li{
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-#band img{
-	height: 10%;
-	width: 10%;
+#referances img{
+	width: 40%;
 }
 
 /*ALBUM*/
