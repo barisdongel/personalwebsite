@@ -121,10 +121,6 @@ li{
 	margin-bottom: 20px;
 }
 
-#about .whomi:hover{
-	box-shadow: 1px 1px 4px black;
-}
-
 #about .cv{
 	color:#fff;
 	background-color: blue;
@@ -178,10 +174,6 @@ li{
 	transition: 0.2s;
 }
 
-#works .card:hover{
-	box-shadow: 1px 1px 5px 1px black;
-}
-
 #works .card img{
 	height: 210px;
 }
@@ -227,33 +219,39 @@ li{
 	width: 40%;
 }
 
-/*ALBUM*/
-#album{
-	width: 98%;
+/*HOBBIES*/
+
+#hobbies{
+	background-color: #eee;
+	padding-bottom: 70px;
 }
 
-#album h2{
-	margin: 50px;
-	color:#17a2b8;
-	font-family: 'Domine', serif;
-	font-size: 32px;
-	text-shadow: 0px 0px 0.1px black;
+#hobbies .row{
+	padding: 20px;
+	border-left:4px solid lightblue;
+	border-right:4px solid lightblue;
+	border-radius: 20px;
 }
 
-#album img{
-	height: 60vh;
-	margin-left: 20px;
-	z-index: 2;
-	opacity: 0.5;
-	transition: 0.2s;
-	position: relative;
-	border-radius: 10px;
+#hobbies .col-4 a{font-family: 'Inter', sans-serif !important;}
+
+#hobbies .title-hobbies{
+	font-family: 'Inter',sans-serif;
+	text-align: center;
+	color: #17a2b8;
+	padding-top: 25px;
+	font-size: 29px;
+}
+#hobbies .col-8{
+	text-align: center;
+	line-height: 37px;
+	font-family: 'Josefin Sans',sans-serif;
+	background-color: #fff;
+	padding: 30px;
 }
 
-#album img:hover,focus{
-	opacity: 1;
-	box-shadow: 3px 3px 30px;
-}
+#hobbies .col-8 i{color:#17a2b8; padding: 18px;}
+#hobbies .col-8 span{color:#17a2b8;}
 
 /*CONTACT*/
 #contact{
@@ -261,7 +259,6 @@ li{
 	background-size: cover;
 }
 
-#contact i{color:#eee;}
 #contact p{color:#fff;}
 #contact h4{color:#17a2b8;}
 #contact h3{color:#17a2b8; font-family: 'Domine', serif;}
