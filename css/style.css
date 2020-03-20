@@ -228,9 +228,6 @@ li{
 
 #hobbies .row{
 	padding: 20px;
-	border-left:4px solid lightblue;
-	border-right:4px solid lightblue;
-	border-radius: 20px;
 }
 
 #hobbies .col-4 a{font-family: 'Inter', sans-serif !important;}
