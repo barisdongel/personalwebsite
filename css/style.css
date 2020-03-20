@@ -175,6 +175,11 @@ li{
 #works .card{
 	background-color:#eee;
 	color:#000;
+	transition: 0.2s;
+}
+
+#works .card:hover{
+	box-shadow: 1px 1px 5px 1px black;
 }
 
 #works .card img{
@@ -252,10 +257,11 @@ li{
 
 /*CONTACT*/
 #contact{
-	margin-top: 100px;
 	background: url('../img/contact.png') no-repeat center center fixed;
+	background-size: cover;
 }
 
+#contact i{color:#eee;}
 #contact p{color:#fff;}
 #contact h4{color:#17a2b8;}
 #contact h3{color:#17a2b8; font-family: 'Domine', serif;}
@@ -285,11 +291,3 @@ li{
 	background-color: rgba(0, 0, 0, 0);
 	color:#fff;
 }
-
-/*FOOTER*/
-#footer{
-	height: 100%;
-	background-color: #000;
-}
-
-#footer p{font-size: 12px; color:#fff; padding-top: 10px;}
