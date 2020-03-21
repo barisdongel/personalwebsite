@@ -16,7 +16,7 @@ li{
 	background-color: rgba(0, 0, 0, 1) !important;
 }
 
-/*WELCOME SECTİON*/
+
 #about img{
 	background-size: cover;
 	position: absolute;
@@ -25,18 +25,6 @@ li{
 
 .display-4{
 	color:white !important;
-}
-
-#welcome .btn-outline-info{
-	color:#fff;
-	height: 45px;
-	border-radius: 0;
-	padding: 10px 25px;
-	background-color: #17a2b8;
-}
-
-#welcome .btn-outline-info:hover{
-	background-color: rgba(0, 0, 0, 0);
 }
 
 .nav-item .nav-link{
@@ -51,16 +39,26 @@ li{
 	color:#17a2b8 !important;
 }
 
-/*WELCOME*/
-
+/*WELCOME SECTİON*/
 #welcome{
 	background: url('../img/work.jpg') no-repeat center center fixed;
 	background-size: cover;
-	height: 100vh;
 }
 
 #welcome .row{
 	height: 100vh;
+}
+
+#welcome .btn-outline-info{
+	color:#fff;
+	height: 45px;
+	border-radius: 0;
+	padding: 10px 25px;
+	background-color: #17a2b8;
+}
+
+#welcome .btn-outline-info:hover{
+	background-color: rgba(0, 0, 0, 0);
 }
 
 #welcome button:focus{
@@ -75,7 +73,6 @@ li{
 #welcome a{
 	font-family: 'Josefin Sans', sans-serif;
 }
-
 /*ABOUT*/
 #about{
 	background-color: #eee;
