@@ -4,6 +4,7 @@ li{
 	padding: 0px 30px;
 }
 
+
 /*Logo*/
 .logoheader{
  	padding-left: 30px;
@@ -149,6 +150,27 @@ li{
 #about .social-menus .github{color: #000;}
 #about .social-menus .instagram{color: #8a3ab9;}
 
+/*Info bar*/
+#infobar{
+	background-color: #fff;
+}
+
+#infobar p{font-family: 'Josefin Sans';}
+#infobar h3{font-family: 'Josefin Sans'; color: #0f0f0f;}
+#infobar span{color: #17a2b8;}
+
+#infobar .fa-bootstrap {
+	color: #563d7c;
+}
+#infobar .fa-wordpress{
+	color:#016087;
+}
+#infobar .fa-html5{
+	color:#EE5F25;
+}
+#infobar .fa-css3-alt{
+	color:#258FC9;
+}
 /*WORKS*/
 #works{background-color: #fff;}
 #works .works-title{
