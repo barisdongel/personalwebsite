@@ -2,22 +2,12 @@
 
 /*welcome blog*/
 #blogwelcome{background-color: #eee !important; padding-top: 5rem;}
-#blogwelcome i{font-size:30px; padding-left: 55px; line-height: 80px;}
+#blogwelcome span{font-size: 22px;}
+#blogwelcome #my_author{font-size:30px; padding-left: 55px;color:#007bff; }
 
 /*Posts*/
 #blog{padding-top: 3rem; background-color: #101112;}
-#blog .jumbotron{border-radius: 0px;}
-#blog h1{color:#000 !important; padding: 7px;}
-#blog img{background-size: cover !important; width: 100%; border: 3px solid #007bff;}
+#blog .card{border:1px solid blue;}
+#blog h1{padding: 7px;}
+#blog img{width: 50% !important;}
 #blog h4{color:#fff; font-family: 'Josefin Sans', sans-serif;}
-
-/*Toolbar button*/
-#blog .btn-toolbar{padding: 18px;}
-#blog .btn-toolbar button{color: #000; background-color: #fff; border-right: 0.1px solid white; border-radius: 0px; padding: 15px;}
-
-/*right side menu*/
-.col-md-3 .categories{padding-bottom: 35px;}
-.col-md-3 .last-release{padding-bottom: 35px;}
-.col-md-3 .bloglabels{padding-top: 35px !important;}
-.col-md-3 .bloglabels .labelgroup{background-color: #eee; padding: 12px; font-size: 17px;}
-.col-md-3 li{border-radius: 0px !important;}
