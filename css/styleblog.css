@@ -9,5 +9,6 @@
 #blog{padding-top: 3rem; background-color: #101112;}
 #blog .card{border:1px solid blue;}
 #blog h1{padding: 7px;}
+#blog .card .card-body h4{color: #000 !important;}
 #blog img{width: 50% !important;}
 #blog h4{color:#fff; font-family: 'Josefin Sans', sans-serif;}
