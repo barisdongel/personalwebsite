@@ -172,7 +172,7 @@ li{
 	color:#258FC9;
 }
 /*WORKS*/
-#works{background-color: #fff;}
+#works{background-color: #fff; height: 47rem;}
 #works .works-title{
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
@@ -189,6 +189,56 @@ li{
 
 #works .card img{height: 210px;}
 #works .col-md-4{margin-bottom: 45px;}
+
+/*works slider*/
+
+
+.gallery {
+  background: #EEE;
+  width: 100%;
+  padding: 30px;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 350px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
 /*Client Logo Slider*/
 #clientslider{background-color: #fefefe;}
 
